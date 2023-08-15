@@ -1,37 +1,17 @@
-# chromium_third_party_nasm
+NASM, the Netwide Assembler
+===========================
 
-#### 介绍
-第三方软件nasm
+[![master](https://travis-ci.org/netwide-assembler/nasm.svg?branch=master)](https://travis-ci.org/netwide-assembler/nasm)
 
-#### 软件架构
-软件架构说明
+Many many developers all over the net respect NASM for what it is:
+a widespread (thus netwide), portable (thus netwide!), very flexible
+and mature assembler tool with support for many output formats (thus netwide!!).
 
+Now we have good news for you: NASM is licensed under the "simplified"
+[(2-clause) BSD license](https://opensource.org/licenses/BSD-2-Clause).
+This means its development is open to even wider society of programmers
+wishing to improve their lovely assembler.
 
-#### 安装教程
+Visit our [nasm.us](https://www.nasm.us/) website for more details.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+With best regards, the NASM crew.
