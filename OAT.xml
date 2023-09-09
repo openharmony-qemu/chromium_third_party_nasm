@@ -3,43 +3,21 @@
     <oatconfig>
         <policylist>
             <policy name="projectPolicy" desc="">
-                <policyitem type="compatibility" name="Khronos License" path="SPIRV.*" desc="" />
-                <policyitem type="compatibility" name="GPL-2.0-with-bison-exception" path=".*" desc="" />
-                <policyitem type="compatibility" name="GPL-3.0+" path=".*" desc="" />
-                <policyitem type="compatibility" name="Khronos Group License" path="glslang/MachineIndependent.*" desc="" />
                 <policyitem type="compatibility" name="GPL-2.0+" path=".*" desc="" />
                 <policyitem type="compatibility" name="GPLStyleLicense" path=".*" desc="" />
-                <policyitem type="compatibility" name="Copyright" path="rdoff.*" desc="" />
-                <policyitem type="compatibility" name="Copyright" path="include.*" desc="" />
-                <policyitem type="compatibility" name="domaint" path="rdoff.*" desc="" />
-                <policyitem type="compatibility" name="Copyrigh1" path="E:/code/chromium_third_party_nasm/stdlib/strlcpy.c" desc="" />
-                <policyitem type="compatibility" name="Miller" path="stdlib.*" desc="" />
+                <policyitem type="compatibility" name="Public Domain" path=".*" desc="" />
+                <policyitem type="compatibility" name="Unknown license detected but not recognized" path=".*" desc="" />
+
             </policy>
         </policylist>
         <filefilterlist>
             <filefilter name="defaultPolicyFilter"
                 desc="Filters for compatibility,license header policies">
-                <filteritem type="filepath" name="third_party/llvm-10.0/llvm/include/llvm/Support/LICENSE.TXT"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/SPIRV-Tools/BUILD.bazel"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/llvm-subzero/LICENSE.TXT"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/subzero/LICENSE.TXT"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/subzero/bloat/README.chromium"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/llvm-10.0/Android.bp"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/SPIRV-Headers/BUILD.bazel"
+                <filteritem type="filepath" name=".*texi"
                     desc="" />
                 <filteritem type="filepath" name=".*asm"
                     desc="" />
                 <filteritem type="filepath" name=".*mac"
-                    desc="" />
-                <filteritem type="filepath" name=".*chromium"
-                    desc="" />
-                <filteritem type="filepath" name=".*texi"
                     desc="" />
                 <filteritem type="filepath" name="SubmittingPatches"
                     desc="" />
@@ -49,37 +27,66 @@
             <filefilter name="defaultFilter">
                 <filteritem type="filepath" name="README.OpenSource"
                     desc="" />
+                <filteritem type="filepath" name=".*t"
+                    desc="" />
+                <filteritem type="filepath" name="test/br3392668-3.asm"
+                    desc="" />
+                <filteritem type="filepath" name="test/br3392669-57.asm"
+                    desc="" />
+                <filteritem type="filepath" name="doc/internal.doc"
+                    desc="" />
+                <filteritem type="filepath" name="nsis/nasm-un.ico"
+                    desc="" />
+                <filteritem type="filepath" name="doc/nasmlogw.png"
+                    desc="" />
+                <filteritem type="filepath" name="nsis/nasm.ico"
+                    desc="" />
             </filefilter> 
         </filefilterlist>
         <licensematcherlist>
-            <licensematcher name="Khronos Group License" desc="">
-                <licensetext name="
-                * Copyright (c) 2013 The Khronos Group Inc.
+            <licensematcher name="Public Domain" desc="">
+            <licensetext name="
+                This file is public domain, and does not come under the NASM license.
+                * It, aint32_t with 'collectn.c' implements what is basically a variable
+                * length array (of pointers).
+            " desc="" />
+             </licensematcher>
+             <licensematcher name="0BSD" desc="">
+            <licensetext name="
+                * THE SOFTWARE IS PROVIDED &quot;AS IS&quot; AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+                * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+                * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+                * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+                * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+                * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+                * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+            " desc="" />  
+            </licensematcher>
+             <licensematcher name="Unknown license detected but not recognized" desc="">
+            <licensetext name="
+                * Julian Hall. All rights reserved. The software is
+                * redistributable under the license given in the file &quot;LICENSE&quot;
+                * distributed in the NASM archive.
             " desc="" />
             </licensematcher>
-            <licensematcher name="Copyright" desc="">
-                <licensetext name="
-                 * The Netwide Assembler is copyright (C) 1996 Simon Tatham and
- * Julian Hall. All rights reserved. The software is
-            " desc="" />
-            </licensematcher> 
-            <licensematcher name="domaint" desc="">
+            <licensematcher name="BSD-2-Clause" desc="">
             <licensetext name="
-                 * This file is public domain, and does not come under the NASM license.
- * It, aint32_t with 'collectn.c' implements what is basically a variable
- * length array (of pointers)
+                URL: https://www.nasm.us/
+                Version: 2.15.03rc6 / f1cf95480d9df9e7854a4be6844f86ff854e03d2
+                CPEPrefix: cpe:/a:nasm:netwide_assembler:2.15.03rc6
+                License: 2-Clause BSD
+                License File: LICENSE
+                Security Critical: no
+                ource: https://github.com/netwide-assembler/nasm
             " desc="" />
-            </licensematcher>  
-            <licensematcher name="domaint" desc="">
+            </licensematcher>
+            <licensematcher name="BSD-2-Clause" desc="">
             <licensetext name="
-                 * This file is public domain, and does not come under the NASM license.
- * It, aint32_t with 'collectn.c' implements what is basically a variable
- * length array (of pointers)
-            " desc="" />
-            </licensematcher>  
-            <licensematcher name="Miller" desc="">
-            <licensetext name="
-               * Copyright (c) 1998 Todd C. Miller
+                CPEPrefix: cpe:/a:nasm:netwide_assembler:2.15.03rc6
+                License: 2-Clause BSD
+                License File: LICENSE
+                Security Critical: no
+                Source: https://github.com/netwide-assembler/nasm
             " desc="" />
             </licensematcher>
         </licensematcherlist>
