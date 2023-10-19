@@ -69,9 +69,9 @@ used to filter file path.
                 <policyitem type="compatibility" name="GPLStyleLicense" path="autoconf/helpers/config.guess" desc="经法务确认,涉及文件在render下进行了隔离" />
                 <policyitem type="compatibility" name="GPLStyleLicense" path="autoconf/helpers/config.sub" desc="经法务确认,涉及文件在render下进行了隔离" />
                 <policyitem type="compatibility" name="Public Domain" path="rdoff/collectn.h" desc="经法务确认经法务确认为宽松型许可证" />
-                <policyitem type="compatibility" name="Unknown license detected but not recognized" path="rdoff/rdfload.h" desc="经法务确认经法务确认为宽松型许可证" />
-                <policyitem type="compatibility" name="Unknown license detected but not recognized" path="rdoff/hash.h" desc="经法务确认经法务确认为宽松型许可证" />
-                <policyitem type="compatibility" name="Unknown license detected but not recognized" path="include/insns.h" desc="经法务确认经法务确认为宽松型许可证" />
+                <policyitem type="compatibility" name="LicenseRef-scancode-unknown" path="rdoff/rdfload.h" desc="经法务确认经法务确认为宽松型许可证" />
+                <policyitem type="compatibility" name="LicenseRef-scancode-unknown" path="rdoff/hash.h" desc="经法务确认经法务确认为宽松型许可证" />
+                <policyitem type="compatibility" name="LicenseRef-scancode-unknown" path="include/insns.h" desc="经法务确认经法务确认为宽松型许可证" />
             </policy>
         </policylist>
         <filefilterlist>
@@ -113,7 +113,7 @@ used to filter file path.
                 * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
             " desc="" />  
             </licensematcher>
-             <licensematcher name="Unknown license detected but not recognized" desc="">
+             <licensematcher name="LicenseRef-scancode-unknown" desc="">
             <licensetext name="
                 * Julian Hall. All rights reserved. The software is
                 * redistributable under the license given in the file &quot;LICENSE&quot;
@@ -130,9 +130,7 @@ used to filter file path.
                 Security Critical: no
                 ource: https://github.com/netwide-assembler/nasm
             " desc="" />
-            </licensematcher>
-            <licensematcher name="BSD-2-Clause" desc="">
-            <licensetext name="
+                <licensetext name="
                 CPEPrefix: cpe:/a:nasm:netwide_assembler:2.15.03rc6
                 License: 2-Clause BSD
                 License File: LICENSE
