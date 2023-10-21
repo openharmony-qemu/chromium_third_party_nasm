@@ -1,50 +1,11 @@
 [
     {
-        "Name": "nasm",                   # 上游开源软件名全称
-        "License": "GPL-2.0+"     # 上游开源软件中包含的许可证信息
-        "License File":"LICENSE"      # 许可证所在文件路径
+        "Name": "nasm",
+        "License": "BSD-2-Clause",
+        "License File":"LICENSE",
         "Version Number": "9215e8e1d0fe474ffd3e16c1a07a0f97089e6224",
-        "Upstream URL": "https://chromium.googlesource.com/chromium/deps/nasm.git@9215e8e1d0fe474ffd3e16c1a07a0f97089e6224",   # 上游软件包发布地址
-        "Description": "第三方软件nasm"           # 开源软件功能描述
-    },
-    {
-        "Name": "nasm",                   # 上游开源软件名全称
-        "License":"GPLStyleLicense"     # 上游开源软件中包含的许可证信息
-        "License File":"LICENSE"      # 许可证所在文件路径
-        "Version Number": "9215e8e1d0fe474ffd3e16c1a07a0f97089e6224",
-        "Upstream URL": "https://chromium.googlesource.com/chromium/deps/nasm.git@9215e8e1d0fe474ffd3e16c1a07a0f97089e6224",   # 上游软件包发布地址
-        "Description": "第三方软件nasm"           # 开源软件功能描述
-    },
-    {
-        "Name": "nasm",                   # 上游开源软件名全称
-        "License": "Public Domain"     # 上游开源软件中包含的许可证信息
-        "License File":"LICENSE"      # 许可证所在文件路径
-        "Version Number": "9215e8e1d0fe474ffd3e16c1a07a0f97089e6224",
-        "Upstream URL": "https://chromium.googlesource.com/chromium/deps/nasm.git@9215e8e1d0fe474ffd3e16c1a07a0f97089e6224",   # 上游软件包发布地址
-        "Description": "第三方软件nasm"           # 开源软件功能描述
-    },
-    {
-        "Name": "nasm",                   # 上游开源软件名全称
-        "License": "Unknown license detected but not recognized"   # 上游开源软件中包含的许可证信息
-        "License File":"LICENSE"      # 许可证所在文件路径
-        "Version Number": "9215e8e1d0fe474ffd3e16c1a07a0f97089e6224",
-        "Upstream URL": "https://chromium.googlesource.com/chromium/deps/nasm.git@9215e8e1d0fe474ffd3e16c1a07a0f97089e6224",   # 上游软件包发布地址
-        "Description": "第三方软件nasm"           # 开源软件功能描述
-    },
-    {
-        "Name": "nasm",                   # 上游开源软件名全称
-        "License": "0BSD"    # 上游开源软件中包含的许可证信息
-        "License File":"LICENSE"      # 许可证所在文件路径
-        "Version Number": "9215e8e1d0fe474ffd3e16c1a07a0f97089e6224",
-        "Upstream URL": "https://chromium.googlesource.com/chromium/deps/nasm.git@9215e8e1d0fe474ffd3e16c1a07a0f97089e6224",   # 上游软件包发布地址
-        "Description": "第三方软件nasm"           # 开源软件功能描述
-    },
-    {
-        "Name": "nasm",                   # 上游开源软件名全称
-        "License": "BSD-2-Clause"     # 上游开源软件中包含的许可证信息
-        "License File":"LICENSE"      # 许可证所在文件路径
-        "Version Number": "9215e8e1d0fe474ffd3e16c1a07a0f97089e6224",
-        "Upstream URL": "https://chromium.googlesource.com/chromium/deps/nasm.git@9215e8e1d0fe474ffd3e16c1a07a0f97089e6224",   # 上游软件包发布地址
-        "Description": "第三方软件nasm"           # 开源软件功能描述
+        "Owner": "huangjiewen2@huawei.com",
+        "Upstream URL": "https://chromium.googlesource.com/chromium/deps/nasm.git@9215e8e1d0fe474ffd3e16c1a07a0f97089e6224",
+        "Description": "第三方软件nasm，针对80x86和x86-64平台设计的，可移植的、模块化的汇编语言编译器"
     }
 ]
