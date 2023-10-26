@@ -69,9 +69,6 @@ used to filter file path.
                 <policyitem type="compatibility" name="GPLStyleLicense" path="autoconf/helpers/config.guess" desc="经法务确认,涉及文件在render下进行了隔离" />
                 <policyitem type="compatibility" name="GPLStyleLicense" path="autoconf/helpers/config.sub" desc="经法务确认,涉及文件在render下进行了隔离" />
                 <policyitem type="compatibility" name="Public Domain" path="rdoff/collectn.h" desc="经法务确认经法务确认为宽松型许可证" />
-                <policyitem type="compatibility" name="Unknown license detected but not recognized" path="rdoff/rdfload.h" desc="经法务确认经法务确认为宽松型许可证" />
-                <policyitem type="compatibility" name="Unknown license detected but not recognized" path="rdoff/hash.h" desc="经法务确认经法务确认为宽松型许可证" />
-                <policyitem type="compatibility" name="Unknown license detected but not recognized" path="include/insns.h" desc="经法务确认经法务确认为宽松型许可证" />
             </policy>
         </policylist>
         <filefilterlist>
@@ -80,6 +77,11 @@ used to filter file path.
                 <filteritem type="filepath" name="test/changed.asm"  desc="chromium原生文件无license" />
                 <filteritem type="filepath" name="misc/scitech.mac" desc="chromium原生文件无license" />
                 <filteritem type="filepath" name="SubmittingPatches" desc="chromium原生文件无license" />
+                <filteritem type="filepath" name="rdoff/rdfload.h" desc="经确认该文件不使用" />
+            </filefilter>
+            <filefilter name="defaultFilter" desc="File is not used">
+                <filteritem type="filepath" name="rdoff/hash.h" desc="经确认该文件不使用" />
+                <filteritem type="filepath" name="include/insns.h" desc="经确认该文件不使用" />
             </filefilter>
             <filefilter name="readmeOpenSourcefileNamePolicFilter">
                 <filteritem type="filepath" name="README.OpenSource" desc="Filter readme.opensource files" />
