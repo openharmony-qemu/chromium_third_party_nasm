@@ -6663,9 +6663,6 @@ static Token *pp_tokline(void)
                         free_tlist(m->iline);
                         nasm_free(m->paramlen);
                         fm->in_progress = 0;
-                        m->params = NULL;
-                        m->iline = NULL;
-                        m->paramlen = NULL;
                     }
                 }
 
