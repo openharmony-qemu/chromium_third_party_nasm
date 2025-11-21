@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "nasm",
+        "License": "BSD-2-Clause",
+        "License File":"LICENSE",
+        "Version Number": "f477acb1049f5e043904b87b825c5915084a9a29",
+        "Owner": "huamengzheng@huawei.com",
+        "Upstream URL": "https://chromium.googlesource.com/chromium/deps/nasm.git@f477acb1049f5e043904b87b825c5915084a9a29",
+        "Description": "第三方软件nasm，针对80x86和x86-64平台设计的，可移植的、模块化的汇编语言编译器"
+    }
+]
